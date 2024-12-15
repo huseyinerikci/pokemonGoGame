@@ -1,71 +1,17 @@
-# Getting Started with Create React App
+# Pokemon Go Game Project
+This project simulates a simple Pokemon battle game developed using React.js, HTML, and CSS. In the game, comparisons are made between the two sides according to the EXP values ​​of the Pokemons and which side wins or loses is shown on the screen. Pokemons are displayed with their pictures according to their IDs, and the sides change each time the screen is refreshed.
+## Preview
+A preview of my pokemon go game project is in the gif below.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![pokemonGoGmae](https://github.com/user-attachments/assets/a5f7d099-0a13-45af-a7ac-87f9bdcf1055)
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# pokemonGoGame
+## Features
+* Pokemon Features Array: Each Pokemon is defined using a class function. Properties such as the Pokemon's ID, name, type, and EXP value are kept in an array.
+* Card View: The Pokemon features are placed on the screen as a visual card for each Pokemon. Pokemon pictures are loaded via URL according to their IDs.
+* EXP Comparison: EXP values ​​are compared between Pokemons on both sides of the game. The side with the higher EXP value wins.
+* Screen Refresh: Each time the screen is refreshed, the Pokemons on both sides change and the winning or losing side is updated.
+* Winner and Loser Text: The winning and losing sides are displayed on the screen at the end of the game.
+## Technologies
+* React.js: For managing user interface components.
+* HTML5: For structural design.
+* CSS3: For styling and layout.
